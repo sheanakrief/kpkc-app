@@ -39,7 +39,7 @@ const MODULES = [
     Icon: Home,
     color: "#1A3D2E",
     gradient: "from-[#1A3D2E] to-[#2D6A4F]",
-    url: "/immo",
+    url: "https://parkimmo.app",
     disponible: true,
   },
   {
