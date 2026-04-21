@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-forest: #1B3A2D;
+  --color-forest-light: #1F4D38;
+  --color-sage: #8FAF8A;
+  --color-cream: #E8E4D4;
+  --color-cream-bg: #F7F5EF;
+  --color-ink: #0F1A13;
+  --color-muted: #4A5E50;
+  --color-border: #C5CCBF;
+
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+html, body {
+  background: var(--color-cream-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
