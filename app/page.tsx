@@ -90,9 +90,12 @@ export default function HubPage() {
             KPKC
           </span>
         </div>
-        <button className="rounded-xl border border-[var(--color-border)] bg-white px-4 py-2 text-sm font-medium text-[var(--color-forest)] hover:bg-[var(--color-forest)] hover:text-[var(--color-cream)] transition-all">
+        <a
+          href="/login"
+          className="rounded-xl border border-[var(--color-border)] bg-white px-4 py-2 text-sm font-medium text-[var(--color-forest)] hover:bg-[var(--color-forest)] hover:text-[var(--color-cream)] transition-all"
+        >
           Se connecter
-        </button>
+        </a>
       </header>
 
       {/* HERO */}
